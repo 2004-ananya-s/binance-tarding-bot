@@ -24,14 +24,19 @@ Due to API instability in the Testnet (error code -2015), this version simulates
 ## 🚀 How to Run
 
 ### 1. Install requirements:
-```bash
-pip install python-binance
+     ```bash
+     pip install python-binance
 ### 2. Run the Script:
 ```bash
 python trading_bot.py
+
 ### 3. Follow the prompts:
 ```scss
-Enter trading pair (e.g., BTCUSDT)
-Enter order side (BUY or SELL)
-Enter order type (MARKET or LIMIT)
-Enter quantity
+    Enter trading pair (e.g., BTCUSDT)
+    Enter order side (BUY or SELL)
+    Enter order type (MARKET or LIMIT)
+    Enter quantity
+### 4. Example output:
+      Connected to Binance Futures Testnet
+      USDT Balance: 15000.00000000
+      SIMULATED Order placed: {'orderId': 123456, 'status': 'FILLED', ... }
